@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Info</title>
+    <style>
+        .middle-left{
+            position: relative;
+            left: 65px;
+            bottom: 100px;
+         
+        }
+        .middle{
+            position: relative;
+            left: 10px;
+            top: 8px;  
+        }
+
+        .below{
+            position: relative;
+            bottom: 37px;
+            left: 20px;
+        }
+        .container{
+            border: 1px solid black;
+            width: 31%;
+            height: 205px;
+            padding-top: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <table border="1px" text Align="center">
+        <tr>
+            <th>Student Name</th>
+            <th>Student Id</th>
+            <th>Roll Num</th>
+            <th>Contact</th>
+        </tr>
+
+
+        <tr>
+            <td>Farwa</td>
+            <td>1234</td>
+            <td>01</td>
+            <td>03245678908</td>
+        </tr>
+
+
+
+        <tr>
+            <td>Amna</td>
+            <td>3453</td>
+            <td>02</td>
+            <td>03245678908</td>
+        </tr>
+
+
+        <tr>
+            <td>Fatima</td>
+            <td>4565</td>
+            <td>03</td>
+            <td>03245678908</td>
+        </tr>
+
+
+        <tr>
+            <td>Urooj</td>
+            <td>5645</td>
+            <td>04</td>
+            <td>03245678908</td>
+        </tr>
+
+        <tr>
+            <td>Hafsa</td>
+            <td>9975</td>
+            <td>04</td>
+            <td>03245678908</td>
+        </tr>
+
+
+
+    </table>
+    <br><br><br>
+
+    <table border="1px" text Align="center">
+        <tr>
+            <th>Student Name</th>
+            <th>Student Id</th>
+            <th>Roll Num</th>
+            <th>Contact</th>
+        </tr>
+
+        <tr>
+            <td>Fatima</td>
+            <td>4565</td>
+            <td>03</td>
+            <td>03245678908</td>
+        </tr>
+
+
+        <tr>
+            <td>Farwa</td>
+            <td colspan="2">1234</td>
+            <td>01</td>
+            <!-- <td>03245678908</td> -->
+        </tr>
+
+
+
+        <tr>
+            <td colspan="3">Amna</td>
+            <td>3453</td>
+            <!-- <td>02</td>
+            <td>03245678908</td> -->
+        </tr>
+
+        <!-- 
+        <tr>
+            <td>Fatima</td>
+            <td>4565</td>
+            <td>03</td>
+            <td>03245678908</td>
+        </tr>
+
+
+        <tr>
+            <td>Urooj</td>
+            <td>5645</td>
+            <td>04</td>
+            <td>03245678908</td>
+        </tr>
+
+        <tr>
+            <td>Hafsa</td>
+            <td>9975</td>
+            <td>04</td>
+            <td>03245678908</td>
+        </tr> -->
+    </table>
+
+    <br><br><br>
+    <table border="1px" text Align="center">
+        <tr>
+            <th rowspan="3">Student Name</th>
+            <th>Student Id</th>
+            <th>Roll Num</th>
+            <th rowspan="5">Contact</th>
+        </tr>
+
+
+        <tr>
+            <!-- <td>Farwa</td> -->
+            <td>1234</td>
+            <td>01</td>
+            <!-- <td>03245678908</td> -->
+        </tr>
+
+
+
+        <tr>
+            <!-- <td>Amna</td> -->
+            <td>3453</td>
+            <td>02</td>
+            <!-- <td>03245678908</td> -->
+        </tr>
+
+
+        <tr>
+            <td>Fatima</td>
+            <td>4565</td>
+            <td rowspan="2">03</td>
+            <!-- <td rowspan="5" >03245678908</td> -->
+        </tr>
+
+
+        <tr>
+            <td>Urooj</td>
+            <td>5645</td>
+            <!-- <td>04</td> -->
+            <!-- <td>03245678908</td> -->
+        </tr>
+
+        <!-- <tr>
+            <td>Hafsa</td>
+            <td>9975</td>
+            <td>04</td>
+            <td>03245678908</td>
+        </tr> -->
+    </table>
+    <br><br><br>
+
+    <div class="container" style=" width:300px;text-align:center">
+        <table border="1" text Align="center">
+            <tr>
+                <th>img.src</th>
+                <th>Home</th>
+                <th>About</th>
+                <th>Services</th>
+                <th>Contact</th>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+
+
+            <tr style="text-align: center;margin-right: 100px;">
+                <td rowspan="2">Farwa</td>
+
+                <td>1234</td>
+                <td>01</td>
+
+            </tr>
+
+
+
+            <tr>
+
+
+                <td>3453</td>
+                <td>02</td>
+
+            </tr>
+
+            <tr>
+            </tr>
+
+            <tr>
+                <td colspan="4">Fatima</td>
+
+            </tr>
+
+
+
+
+
+        </table>
+
+    </div>
+    <br><br><br>
+    <table border="1"   cellspacing="0">
+        <tr>
+            <td>
+
+                <table align="center" border="1"  cellspacing="0">
+                    <tr>
+                        <td><img src="" alt="">Img</td>
+                        <td>Homes</td>
+                        <td>About</td>
+                        <td>Services</td>
+                        <td>Product</td>
+                        <td>Contact</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr></tr>
+        <tr>
+            <td>
+                <table border="1"  cellspacing="0">
+                    <tr>
+                        <td>Home</td>
+                    </tr>
+                    <tr>
+                        <td>About</td>
+                    </tr>
+                    <tr>
+                        <td>Product</td>
+                    </tr>
+                    <tr>
+                        <td>Services</td>
+                    </tr>
+                    <tr>
+                        <td>Contact</td>
+                    </tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table border="1" style="table-layout: auto;">
+                    <tr>
+                        <td>22</td>
+                        <td>24</td>
+                    </tr>
+
+
+                    <tr height="100%">
+                        <td>
+                            p
+                        </td>
+                        <td>
+                            p
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+
+
+        <tr>
+            <td>
+                <table align="center" border="1">
+                    <tr>
+                        <td>Home</td>
+                        <td>About</td>
+                        <td>Services</td>
+                        <td>Contact</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+
+    </table>
+
+
+
+    <br><br><br>
+
+
+    <table border="1" style="width:10%">
+<!-- 
+        <tr>
+           
+        
+            <td>Img</td>
+           
+            <td>Img</td>
+            <td>Img</td>
+            <td>Img</td>
+            <td>Img</td>
+        
+        
+        </tr> -->
+
+
+        <tr>
+            <td style="padding-left: 15%;" >
+                <table border="1" >
+                    <tr >
+                        <td> img src</td>
+                    </tr>
+                    <tr>
+                        <td> img src</td>
+                    </tr>
+                    <tr>
+                        <td> img src</td>
+                    </tr>
+                    <tr>
+                        <td> img src</td>
+                    </tr>
+                    <tr>
+                        <td> img src</td>
+                    </tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table border="1">
+                    <tr>
+                        <td>22</td>
+                        <td>22</td>
+                    </tr>
+                    <tr>
+                        <td>p</td>
+                        <td>p</td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <table border="1">
+                    <tr>
+                        <td>Home</td>
+                        <td>Home</td>
+                        <td>Home</td>
+                        <td>Home</td>
+                        <td>Home</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+    </table>
+    <br><br><br>
+
+<div class="container">
+    <div class="main">
+        <table>
+            <tr>
+                <table border="1">
+                    <tr>
+                        <td>Home</td>
+                        <td>Home</td>
+                        <td>Home</td>
+                        <td>Home</td>
+                        <td>Home</td>
+                    </tr>
+                </table>
+            </tr>
+        </table>
+    </div>
+    <div class="middle">
+        <table border="1">
+            <tr>
+                     <tr><td>home</td></tr>
+                    <tr><td>home</td></tr>
+                    <tr><td>home</td></tr>
+                    <tr><td>home</td></tr>
+                    <tr><td>home</td></tr>
+               
+            </tr>
+        </table>
+    </div>
+
+    <div class="middle-left">
+        <table border="1">
+            <tr>
+                <td>22</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td>22</td>
+                <td>22</td>
+            </tr>
+        </table>
+    </div>
+    <div class="below">
+        <table>
+            <tr>
+                <table border="1">
+                    <tr>
+                        <td>Home</td>
+                        <td>Home</td>
+                        <td>Home</td>
+                        <td>Home</td>
+                    </tr>
+                </table>
+            </tr>
+        </table>
+    </div>
+
+</div>
+
+</body>
+
+</html>
